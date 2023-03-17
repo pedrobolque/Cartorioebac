@@ -24,7 +24,8 @@ int main()
 		printf("\nEscolha uma opção:\n\n");
 		printf("\t1- Cadastrar Aluno\n");
 		printf("\t2- Consultar Aluno\n");
-		printf("\t3- Excluir Aluno\n\n");
+		printf("\t3- Excluir Aluno\n");
+		printf("\t4- Sair do sistema\n\n");
 		printf("Digite a opção: ");//fim do Menu
 		
 		scanf("%d",&opcaoMenu);//armazenamento da opcao do menus
@@ -45,6 +46,8 @@ int main()
 			break;
 			
 			case 4:
+			printf("Obrigado por utilizar nosso sistema\n\n");
+			return 0;
 			
 			break;
 			
